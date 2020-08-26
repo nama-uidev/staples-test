@@ -1,0 +1,52 @@
+body {
+    padding: 50px;
+}
+/* Button styles */
+.button {
+    font-size: 17px;  
+    background: #e00b0b;
+    color: #FFF;
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px 2px #E7E7E7;
+    border: solid 2px #FFF;
+    cursor: pointer;
+    height: 65px;
+    background-repeat:no-repeat, repeat-x;
+    background-position:center left, center left;
+}
+/* Button styles when hover*/
+.button:hover {   
+    background: #333030;
+    border: solid 3px #e00b0b;
+    box-shadow: 0px 0px 0px 2px #e00b0b;
+}
+/* Button styles when active*/
+.button:active {
+    background: #4a4a4a;
+    box-shadow: 0px 0px 0px 2px #E7E7E7;
+    border: solid 2px #FFF;
+}
+/* Button styles when focus */
+.button:focus {
+    background: #5e5151;
+    box-shadow: 0px 0px 0px 2px #e00b0b;
+    border: solid 2px #FFF;
+    outline: none;
+}
+
+/* img styles */
+.button img {
+    height:80%;
+    vertical-align:middle;
+}
+/* image1 styles */
+#img1 {
+    position: relative;
+    left: 21px;
+    top: 7px;
+}
+/* image2  styles */
+#img2 {
+    position: relative;
+    top: 7px;
+}
